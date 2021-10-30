@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="all.css">
+</head>
+<body>
+    <header> <img src="ico.png" alt="logo" height="35"><t>Alexis Clinic</t><tt>Home</tt> &nbsp;<a href="../">Private policy</a> &nbsp;<a href="../">FAQs</a>&nbsp;<a href="../">Contact</a></header> 
+    <img src="headpic.jfif" alt="head" width="100%"  height="40%" >
+    <center><h2>Doctor's Appointment Form</h2></center>
+    <form>
+    <p>
+        Name:-<input type="text" class="form-control" runat="server" name="name" id="name" placeholder="name*"  required style="text-transform:uppercase; margin: 0; display: inline;">
+        <div class="invalid-feedback "></div>
+    </p>
+    <p>
+        Ph no :-<input type="number" class="form-control" runat="server" name="ph no" id="ph no" placeholder="Phone*" required style="margin: 0; display: inline;" align="right" >
+        <div class="invalid-feedback "></div>
+    </p>
+    <p>
+        Date:-<input type="calender" class="form-control" runat="server" name="DOB" id="DOB" placeholder="DOB*" required>
+        <div class="invalid-feedback "></div>
+    </p>
+    <p>
+        Email:-<input type="email" class="form-control" runat="server" name="email" id="email" placeholder="email*" required>
+        <div class="invalid-feedback "></div>
+    </p>
+    <p>
+        Date:-<input type="datetime" class="form-control" runat="server" name="date" id="date" placeholder="date*" required>
+        <div class="invalid-feedback "></div>
+    </p>
+    
+    
+        <label for="cars">Choose a Deparment:</label>
+        <select id="cars" name="cars" placeholder="deparmeny">
+            <option value="">---Deparment---</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+        <label for="cars">Choose the doctor:</label>
+        <select id="cars" name="cars">
+            <option value="">---Doctors---</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br><br>
+
+        <textarea name="message" rows="10" cols="30" style="width:700px; height:150px;">Write the  text here .</textarea>
+        <br><br>
+        <input type="submit">
+      </form>
+    <footer>all rights reservwd  @medica  c</footer>  
+
+</body>
+</html>
